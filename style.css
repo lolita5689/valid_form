@@ -1,0 +1,102 @@
+input.err {
+    border-color: red;
+}
+
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#telo{
+    width: 250px;
+    height: 190px;
+    background-color: #232525;
+    margin: 200px auto;
+    padding: 25px;
+}
+#forma{
+    width: 240px;
+    height: 40px;
+    background-color: red;
+    margin: 3px auto;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 7px 7px 0px 0px;
+    
+}
+.name{
+    text-align: center;
+    margin: -3px auto;
+    color: white;
+    
+}
+#vvod{
+    width: 230px;
+    height: 134px;
+    background-color: #404242;
+    margin: 3px auto;
+    border: 2px solid #404242;
+    border-radius:  0px 0px 7px 7px;
+    padding: 4px 5px;
+}
+#black{
+ background-color: black;
+ border-radius:  5px ;
+ padding: 3px;
+}
+i{
+    width: 20px;
+    height: 25px;
+   text-align: center;
+    margin: 2px 2px 3px 3px;
+    color: #585e63;
+}
+#login , #parol {
+    height: 25px;
+    margin: 2px;
+    width: 180px;
+    background-color: #1c1e20;
+    border: 1 px #1b1b1b;
+    color:white;
+}
+#chekef{
+    margin: 7px 20px;
+    margin-right: 2px;
+}
+label{
+    margin: -3px;
+    text-transform: lowercase;
+   color: white;
+   font-size: 14px;
+}
+#submit{
+margin-left: 45px;
+width: 55px;
+height: 27px;
+background-color: #2a2d30;
+border: 1px solid #242629;
+color: white;
+font-size: 12px;
+
+}
+input{
+    border: 1px solid #3c4349;
+    border-radius: 5px;
+    padding-left: 5px;
+
+}
+#rext{
+
+margin-left: 20px;
+margin-right: 5px;
+
+}
+.text{
+    text-decoration: none;
+    color: #585e63;
+    font-size: 11pt;
+    letter-spacing: -1px;
+}
+
+
+

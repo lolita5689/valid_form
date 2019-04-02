@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vhod</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    
+</head>
+<body>
+<div id="telo"> 
+    <div id="forma"> <!--red -->
+        <div class="name">
+            <p> ФОРМА ВХОДА</p>
+        </div>
+    </div>
+    <div id="vvod"> <!--black -->
+        <form id="black">
+            <i class="fas fa-user"></i>
+            <input type="text"  name="username" id="login" pattern="^[а-яёa-z]+$"
+            placeholder="USERNAME" required>
+
+                <i class="fas fa-key"></i>
+
+            <input type="password"  name="password" id="parol" placeholder="***********"
+             maxlength="16" minlength="6" pattern="^[а-яА-ЯёЁa-zA-Z]+$" required>
+
+            <input class="chek" type="checkbox" name="Запомнить " id="chekef">
+            <label for="chekef">Запомнить</label>
+
+            <input onclick="myFunction()" type="submit" id="submit" name="Submit" value="ВОЙТИ" />
+
+            <a href="#" class="text" id="rext">  Забыл пароль   | </a>
+            <a href="#" class="text" id="rext1"> Регистрация </a>
+            
+        </form>
+    </div>
+
+</div>
+<!--Валидация на пароль: от 6 до 16 симвилов, нельзя цыфры, юзернейм - можно только маленькие буквы.-->
+<script src="script.js"></script>
+
+</body>
+</html>
